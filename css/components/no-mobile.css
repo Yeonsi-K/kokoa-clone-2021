@@ -1,7 +1,7 @@
 #no-mobile {
   color: white;
   position: absolute;
-  z-index: 99;
+  z-index: 97;
   height: 100vh;
   width: 100vw;
   background-color: var(--background-color-blue);
@@ -13,7 +13,7 @@
 }
 
 #no-mobile span {
-  z-index: 98;
+  z-index: 99;
   position: absolute;
   top: 30%;
 }
@@ -22,7 +22,7 @@
   height: 45%;
   position: absolute;
   bottom: 0;
-  z-index: 97;
+  z-index: 98;
 }
 
 @media screen and (max-width: 645px) {
