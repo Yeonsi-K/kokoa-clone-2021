@@ -1,0 +1,96 @@
+.song {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.song__img {
+  width: 230px;
+  height: 230px;
+  margin: 50px 0px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(59, 94, 189, 0.3);
+}
+
+.song-text {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.song-text__title {
+  font-size: var(--font-size-title);
+  font-weight: 700;
+  color: rgb(59, 94, 189);
+  margin-bottom: 15px;
+}
+
+.song-text__singer {
+  font-size: var(--font-size-small);
+  font-weight: 500;
+  color: rgb(154, 181, 255);
+}
+
+.song-time {
+  width: 290px;
+}
+
+.song-time__text {
+  font-size: 0.7em;
+  margin-bottom: 5px;
+  color: rgb(141, 181, 211);
+  display: flex;
+  justify-content: space-between;
+}
+
+.song-time__range {
+  width: 100%;
+  background: rgb(59, 94, 189);
+}
+
+.song-btn {
+  width: 260px;
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-play {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgb(59, 94, 189);
+  color: white;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.1s ease-in-out;
+}
+
+.fa-play:hover {
+  color: rgb(141, 181, 211);
+  background-color: rgb(36, 58, 117);
+}
+
+.fa-play:active {
+  background-color: rgb(17, 28, 58);
+}
+
+.fa-redo-alt {
+  color: rgb(141, 181, 211);
+}
+
+.fa-random {
+  color: rgb(141, 181, 211);
+}
+
+.song-btn > .fa-step-backward {
+  color: rgb(59, 94, 189);
+}
+
+.song-btn > .fa-step-forward {
+  color: rgb(59, 94, 189);
+}

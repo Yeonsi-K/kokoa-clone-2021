@@ -1,0 +1,25 @@
+.settings__setting {
+  color: var(--font-color-darkred);
+  padding: var(--horizontal-space) 0px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  color: var(--font-color-darkred);
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting-column:last-child {
+  color: var(--font-color-lightgray);
+}
+
+.settings__setting:last-child {
+  border-bottom: var(--main-border);
+}

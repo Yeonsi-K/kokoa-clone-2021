@@ -1,0 +1,12 @@
+.component-chats {
+  border-radius: 30px;
+  margin-bottom: 35px;
+}
+
+.component-chats:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(230, 230, 230),
+    var(--background-color-whitesmoke)
+  );
+}

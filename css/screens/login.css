@@ -1,0 +1,104 @@
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  color: var(--font-color-darkred);
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.welcome-header__text {
+  color: var(--font-color-darkgray);
+  width: 70%;
+  opacity: 0.7;
+  font-weight: 600;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#login-form input {
+  color: var(--font-color-darkred);
+  font-family: "Quicksand";
+  font-weight: 600;
+  background-color: var(--background-color-whitesmoke);
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 1.5px solid var(--font-color-lightgray);
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input::placeholder {
+  color: var(--font-color-lightgray);
+}
+
+#login-form input:focus {
+  border-color: var(--main-color);
+}
+
+#login-form input[type="submit"] {
+  color: white;
+  background-color: var(--main-color);
+  cursor: pointer;
+  padding: 20px 0px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  transition: all 0.1s ease-in-out;
+}
+
+#login-form input[type="submit"]:hover {
+  background-color: rgb(170, 18, 13);
+}
+
+#login-form a {
+  color: var(--font-color-lightgray);
+  font-family: "Quicksand";
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  margin: 20px 0px;
+}
+
+#splash-screen {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background-color-blue);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 122px;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen img {
+  width: 80%;
+}

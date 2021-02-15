@@ -1,0 +1,60 @@
+.singer-now-playing {
+  width: 290px;
+  height: 60px;
+  margin: 0px 20px;
+  padding: 0px 25px;
+  color: white;
+  background-color: rgb(59, 94, 189);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+.singer-now-playing__btn {
+  position: absolute;
+  right: 25px;
+}
+
+.singer-now-playing__singer-name {
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.signer-now-playing__song-title {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.singer-now-playing__btn {
+  width: 80px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.singer-now-playing__btn > .fa-step-backward:hover {
+  color: rgb(197, 209, 218);
+}
+
+.singer-now-playing__btn > .fa-step-backward:active {
+  color: rgb(141, 181, 211);
+}
+
+.singer-now-playing__btn > .fa-pause:hover {
+  color: rgb(197, 209, 218);
+}
+
+.singer-now-playing__btn > .fa-pause:active {
+  color: rgb(141, 181, 211);
+}
+
+.singer-now-playing__btn > .fa-step-forward:hover {
+  color: rgb(197, 209, 218);
+}
+
+.singer-now-playing__btn > .fa-step-forward:active {
+  color: rgb(141, 181, 211);
+}

@@ -1,0 +1,12 @@
+:root {
+  --background-color-blue: rgb(79, 205, 255);
+  --background-color-whitesmoke: whitesmoke;
+  --main-color: rgb(214, 22, 16);
+  --yellow: #fae100;
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --font-color-darkred: rgb(104, 3, 0);
+  --font-color-darkgray: rgba(0, 0, 0, 0.8);
+  --font-color-lightgray: rgba(0, 0, 0, 0.4);
+  --font-color-gray: rgba(0, 0, 0, 0.6);
+}
